@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: black;
+            text-align: center;
+            font-size: 20px;
+        }
+        table{
+            background-color:rgb(78, 151, 156);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        First name: <input type="text" placeholder="Name"><br/><br/>
+        Last name: <input type="text" placeholder="Last Name"><br/><br/>
+        Email address: <input type="email" placeholder="Email"><br/><br/>
+        
+        Travel Options:
+        <select name="dropdown">
+            <option value="Pokhara" selected>Pokhara</option>
+            <option value="Mustang">Mustang</option>
+            <option value="Bandipur">Bandipur</option>
+            <option value="Butwal">Butwal</option>
+        </select>
+        <br/><br/>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>More about us</h2>
+    <table border="1">
+        <tr>
+           <th>City</th>
+           <th>Time</th>
+           <th>Bus no</th> 
+        </tr>
+        <tr>
+             <td>Pokhara</td>
+            <td>8am</td>
+            <td>Baa 2 ka 1122</td>
+        </tr>
+        <tr>
+            <td>Mustang</td>
+            <td>6pm</td>
+            <td>Baa 2 ka 7622</td>
+        </tr>
+        <tr>
+            <td>Bandipur</td>
+            <td>10am</td>
+            <td>Baa 2 ka 2222</td>
+            </tr>
+            <tr>
+                <td>Butwal</td>
+                <td>5am</td>
+                <td>Baa 2 ka 8940</td>
+            </tr>
+    </table>
+</body>
+</html>
